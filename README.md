@@ -10,8 +10,6 @@ Cliq-App is a versatile, feature-rich web application designed for seamless comm
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Running the App](#running-the-app)
-- [Testing](#testing)
-- [License](#license)
 
 ---
 
@@ -38,7 +36,7 @@ Follow these steps to install Cliq-App:
    ```bash
    git clone https://github.com/SubashSK777/Cliq-App.git
    cd Cliq-App
-
+```
 ### Installation
 
 ### Install Backend Dependencies
@@ -47,7 +45,53 @@ Navigate to the server directory and install the dependencies:
 ```bash
 cd server
 npm install
+```
 
+### Install Frontend Dependencies
+Next, navigate to the client directory and install the dependencies:
+
+```bash
+cd ../client
+npm install
+```
+### Configuration
+Environment Variables
+Backend Configuration
+In the server directory, create a .env file with the following variables:
+
+```plaintext
+MONGO_URI=<your_mongo_db_connection_string>
+PORT=5000
+JWT_SECRET=<your_jwt_secret>
+```
+MONGO_URI: MongoDB connection string.
+PORT: Port for the server (default is 5000).
+JWT_SECRET: Secret key for JWT authentication.
+
+Frontend Configuration
+In the client directory, create a .env file (if needed) for any API endpoints or configurations.
+
+### Running the App
+Start the Backend Server
+In the server directory, start the backend server:
+
+```bash
+npm start
+```
+
+### Start the Frontend Server
+In the client directory, start the frontend development server:
+
+```bash
+npm start
+```
+
+### Access the Application
+Open your browser and go to:
+
+```bash
+http://localhost:3000
+```
 
 <br/>
 <br/>
