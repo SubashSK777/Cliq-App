@@ -1,5 +1,53 @@
-# CliqApp
-This is a Ecommerce app build over react native runs over android &amp; ios.
+# Cliq-App
+
+Cliq-App is a versatile, feature-rich web application designed for seamless communication and collaboration. With real-time messaging, group chats, and a user-friendly interface, Cliq-App makes it easy to connect with friends, family, and colleagues.
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the App](#running-the-app)
+- [Testing](#testing)
+- [License](#license)
+
+---
+
+## Features
+
+- Real-time messaging
+- Group and direct chats
+- User authentication and profiles
+- Responsive and intuitive interface
+
+## Prerequisites
+
+To run the Cliq-App locally, ensure you have the following installed:
+
+- **Node.js** (v14.x or higher)
+- **npm** (Node package manager, typically installed with Node.js)
+- **MongoDB** (for database)
+
+## Installation
+
+Follow these steps to install Cliq-App:
+
+### Clone the Repository
+   ```bash
+   git clone https://github.com/SubashSK777/Cliq-App.git
+   cd Cliq-App
+
+### Installation
+
+### Install Backend Dependencies
+Navigate to the server directory and install the dependencies:
+
+```bash
+cd server
+npm install
+
 
 <br/>
 <br/>
